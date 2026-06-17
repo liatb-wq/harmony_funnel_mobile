@@ -1,0 +1,24 @@
+{
+  "header": {
+    "label": "",
+    "title": "My Project",
+    "subtitle": "",
+    "slidesUrl": ""
+  },
+  "cards": [
+    {
+      "id": "c1",
+      "num": 1,
+      "title": "First flow1",
+      "bullets": [
+        "· Description"
+      ],
+      "status": "tbd",
+      "statusLabel": "TBD",
+      "href": null,
+      "figmaUrl": null,
+      "specFile": null,
+      "thumbUrl": null
+    }
+  ]
+}
