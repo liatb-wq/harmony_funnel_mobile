@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { 
+    body {
       font-family: "Wix Madefor Text", sans-serif;
       background: #f5f5f7;
       min-height: 100vh;
@@ -76,7 +76,7 @@
     /* ── Edit mode ── */
     #lobby-edit-btn {
       position: fixed; bottom: 28px; right: 28px;
-      display: none; align-items: center; gap: 6px;
+      display: inline-flex; align-items: center; gap: 6px;
       padding: 8px 16px; border-radius: 20px;
       font-size: 12px; font-weight: 600; font-family: "Wix Madefor Text", sans-serif;
       border: none; background: #1E1E2E; color: #fff;
@@ -285,8 +285,8 @@
   (function () {
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     // CONFIG — update these three values for each new project
-    var GITHUB_OWNER = 'YOUR-GITHUB-USERNAME';
-    var GITHUB_REPO  = 'YOUR-REPO-NAME';
+    var GITHUB_OWNER = 'liatb-wq';
+    var GITHUB_REPO  = 'harmony_funnel_mobile';
     var DATA_FILE    = 'lobby-data.json'; // path inside the repo
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -651,7 +651,7 @@
     });
 
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'e' && e.altKey) {
+      if (e.key === 'e' && e.shiftKey && e.metaKey) {
         var btn = document.getElementById('lobby-edit-btn');
         btn.style.display = btn.style.display === 'none' ? 'inline-flex' : 'none';
       }
