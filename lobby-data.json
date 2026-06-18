@@ -9,14 +9,15 @@
     {
       "id": "c1",
       "num": 1,
-      "title": "First flow1",
+      "title": "v2 - Move prompt page entry point",
       "bullets": [
-        "· Description"
+        "· Move \"design with aria\" entry point to \"skip\" on domain widget",
+        "Make loading/ preview changes· "
       ],
-      "status": "tbd",
-      "statusLabel": "TBD",
+      "status": "ready",
+      "statusLabel": "In dev",
       "href": null,
-      "figmaUrl": null,
+      "figmaUrl": "https://www.figma.com/design/Y1DToWAdH9SAIgDSktPQKv/Mobile-Site-Creation?node-id=1987-3835&p=f&t=tZVpRXPuXQNxumuZ-0",
       "specFile": null,
       "thumbUrl": null
     }
